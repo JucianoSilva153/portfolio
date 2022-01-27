@@ -1,0 +1,58 @@
+@media  screen and (min-width: 1024px) and (max-width: 1459px) {
+
+    /* Para o menu */
+
+    .menu {
+        margin-left: 60%;
+    }
+
+    /* Para o menu */
+
+
+
+
+    /* Para a div Home */
+
+    .home{
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    .home .media{
+        margin-top: 0px;
+    }
+
+    /* Para a div Home */
+
+
+
+
+    /* Para os cards */
+
+    .card-line .card{
+        height: auto;
+    }
+
+
+    .card-line .card-image img{
+        width: 950p;
+    }
+
+    .card-line .card-image{
+        position: relative;
+    }
+
+    /* Para os cards */
+
+
+
+
+    /* Para a div educacao */
+
+    .educacao{
+        margin-top: 10px;
+    }
+
+    /* Para a div educacao */
+
+}

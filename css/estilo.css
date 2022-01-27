@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+font-family: Consolas;
+color: #707070;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+    margin: 2px;
+}
+
+h1,h2,h3,h4{
+    margin: 5px;
+}
+
+.textoS{
+
+    /* font-size: 10px;
+    color: #776161; */
+
+    background-color: #707070;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: small;
+    margin: 8px;
+}
+
+
+/* Para a div menu */
+
+.menu li{
+    display: inline;
+    padding-left: 15px;
+}
+
+.menu{
+    margin-left: 70%;
+    margin-top: 10px;
+    color:#707070;
+}
+/* Para a div menu */
+
+
+
+
+/* Para a ancora do menu */
+.listm a:hover{
+    text-decoration: none;
+    border: 2px solid #707070;
+    color: #707070;
+    padding:5px;
+    border-radius: 8px;
+}
+
+.listm a{
+    text-decoration: none;
+    color: #707070;
+    padding:5px;
+}
+
+/* Para a ancora do menu */
+
+
+
+
+/* Para a div Home */
+
+.home{
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    color:#707070;
+}
+
+.home h1{
+    margin-top: -12px;
+    font-size: 45px;
+}
+
+.home image{
+    width: 20%;
+    margin-bottom: 200px;
+}
+
+.home p{
+    margin: 20px;
+}
+
+.media li{
+    display: inline;
+}
+
+.media{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.media li img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.home nav{
+    padding: 10px;
+}
+
+/* Para a div Home */
+
+
+
+
+
+
+/* Para o Botão ver mais */
+
+.botao {
+
+    margin-top: 150px;
+    border-radius: 8px;
+    border-color:#707070 ;
+    color: #707070;
+    border: 2px solid #707070;
+    padding:5px;
+    /* background-color: grey; */
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.botao:hover{
+
+    background-color: #707070;
+    color: white;
+
+}
+
+/* Para o Botão ver mais */
+
+
+
+/* Para a area de Educação */
+
+.educacao{
+
+    margin-top: 90px;
+    margin-bottom: 6%;
+    margin-left: 6%;
+
+}
+
+.side1, .side4{
+    width: 30%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+
+.side2, .side3{
+    width: 60%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+/* Para a area de Educação */
+
+
+
+
+/* Para o card */
+
+    .card-line{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-line .card{
+        border: 2px solid #707070;
+        border-radius: 10px;
+        margin: 10px;
+        
+    }
+
+    .card-line .card .card-content{
+        width: 100%;
+    }
+
+/* Para o card */
+
+
+
+
+/* Para a div Sobre */
+
+.sobre{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Para a div Sobre */
+
+
+
+
+/* Para o rodape */
+
+/* Para o rodape */
+
+
+
+
+
+/* Para a lista de tecnologias */
+
+.stacks{
+    /* display: inline-block; */
+}
+
+.stacks .front{
+    width: 15%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.stacks ul{
+    list-style: none;
+}
+
+.stacks .front ul li{
+    padding-bottom: 5px;
+}
+
+.stacks .back{
+    width: 15%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.stacks .back ul li{
+    padding-bottom: 5px;
+}
+
+.stacks .outras{
+    width: 15%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stacks .outras ul li{
+    padding-bottom: 5px;
+}
+
+.stacks h4{
+    border-bottom: 1px solid #707070;
+}
+
+/* Para a lista de tecnologias */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________________________________________ */
+/* Media Queries */
+
+
+@media (max-width: 1441px){
+
+    .card{
+        float: left;
+        width: 30%;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+    .card-line{
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width: 1025px){
+    
+
+    .card-line{
+        flex-wrap: wrap;
+    }
+
+    .card-line .card, .card-image, .card .card-content{
+        width: 40%;
+        padding: 15px;
+    }
+
+    .card-image{
+        overflow: hidden;
+        visibility: collapse;
+    }
+
+    .card p{
+        width: 95%;
+    }
+
+    .menu{
+        margin-left: 55%;
+    }  
+
+}
+
+@media (max-width: 769px){
+    
+    .card-line{
+        flex-wrap: wrap;
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .card-line .card, .card-image, .card .card-content{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .card-image{
+        overflow: hidden;
+        visibility: collapse;
+    }
+
+    .card p{
+        width: 95%;
+    }
+
+    .menu{
+        margin-left: 52%;
+    } 
+
+    .stacks .back{
+        width: 20%;
+        margin-left: 5px;
+        margin-right: 5px;
+        min-width: 230px;
+    }
+    .stacks .front{
+        width: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        min-width: 230px;
+    }
+    .stacks .outras{
+        width: 20%;
+    }
+}
+@media (max-width: 426px){
+    .home img{
+        margin-left: 23%;
+    }
+    .media{
+        display: flex;
+        margin-bottom: 20px;
+        padding-right: 10px;
+        align-items: center;
+    }
+    .side2{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .side3{
+        width: 95%;
+        margin-bottom: 10px ;
+    }
+    .stacks  .front{
+        margin-bottom: 20px;
+    }
+    .stacks  .back{
+        margin-bottom: 20px;
+    }
+    .side1, .side4{
+        margin: 0px;
+        padding: 0px;
+    }
+    .textoS{
+        margin-top: 10px;
+    }
+
+
+}
+
+@media (max-width: 380px){
+
+}
