@@ -340,6 +340,10 @@ h1,h2,h3,h4{
         visibility: collapse;
     }
 
+    .card{
+        height: 180px;
+    }
+
     .card p{
         width: 95%;
     }
@@ -393,6 +397,11 @@ h1,h2,h3,h4{
     }
 }
 @media (max-width: 426px){
+    .menu{
+        visibility: hidden;
+        position: absolute;
+    }
+   
     .home img{
         margin-left: 23%;
     }
@@ -427,6 +436,48 @@ h1,h2,h3,h4{
 
 }
 
-@media (max-width: 380px){
+@media (max-width: 395px){
+
+/* .menu{
+    margin-left: 0%;
+    position: absolute;
+    right: 350px;
+    background-color: #909090;
+    width: -350px;
+    height: 50%;
+    transition: 1s;
+}
+
+.menu li{
+    display: block;
+    padding-bottom: 10px;
+}
+  
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .menu{
+    transform: translateX(350px);
+}
+
+label{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 30px;
+} */
+
+.menu{
+    visibility: hidden;
+    position: absolute;
+}
+
+.home img{
+    margin-left: 15%;
+}
+
+.card{
+    height: 200px;
+}
 
 }
