@@ -226,6 +226,16 @@ h1,h2,h3,h4{
 
 /* Para o rodape */
 
+
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #a09f9f;
+        padding: 10px;
+    }
+
+
 /* Para o rodape */
 
 
