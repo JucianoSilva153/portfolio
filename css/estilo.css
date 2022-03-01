@@ -331,6 +331,17 @@ h1,h2,h3,h4{
         flex-wrap: wrap;
         
     }
+
+    
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #a09f9f;
+        padding: 10px;
+    }
+
+
 }
 
 @media (max-width: 1025px){
@@ -362,10 +373,32 @@ h1,h2,h3,h4{
         margin-left: 55%;
     }  
 
+    
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #a09f9f;
+        padding: 10px;
+    }
+
+
+
 }
 
 @media (max-width: 769px){
     
+    
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #a09f9f;
+        padding: 10px;
+    }
+
+
+
     .card-line{
         flex-wrap: wrap;
         /* background-color: red; */
@@ -415,6 +448,17 @@ h1,h2,h3,h4{
     .home img{
         margin-left: 23%;
     }
+
+    
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #a09f9f;
+        padding: 10px;
+    }
+
+
     .media{
         display: flex;
         margin-bottom: 20px;
@@ -476,6 +520,17 @@ label{
     z-index: 1;
     margin-bottom: 30px;
 } */
+
+
+.rodape{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    background-color: #a09f9f;
+    padding: 10px;
+}
+
+
 
 .menu{
     visibility: hidden;
