@@ -318,7 +318,6 @@ h1,h2,h3,h4{
 /* ___________________________________________ */
 /* Media Queries */
 
-
 @media (max-width: 1441px){
 
     .card{
@@ -343,7 +342,6 @@ h1,h2,h3,h4{
 
 
 }
-
 @media (max-width: 1025px){
     
 
@@ -385,7 +383,6 @@ h1,h2,h3,h4{
 
 
 }
-
 @media (max-width: 769px){
     
     
@@ -489,7 +486,6 @@ h1,h2,h3,h4{
 
 
 }
-
 @media (max-width: 395px){
 
 /* .menu{

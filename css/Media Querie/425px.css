@@ -1,9 +1,0 @@
-@media  (min-width: 425px) and (max-width: 767) {
-    body{
-        background-color: red;
-    }
-
-    .menu{
-        margin-left: 40%;
-    }
-}
