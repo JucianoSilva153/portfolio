@@ -40,7 +40,7 @@ h1,h2,h3,h4{
 }
 
 
-/* Para a div menu */
+/*Para a div menu */
 
 .menu li{
     display: inline;
@@ -48,7 +48,7 @@ h1,h2,h3,h4{
 }
 
 .menu{
-    margin-left: 70%;
+    margin-left: 55%;
     margin-top: 10px;
     color:#707070;
 }
@@ -294,7 +294,18 @@ h1,h2,h3,h4{
 
 /* Para a lista de tecnologias */
 
+.topo hgroup, .topo p{
+    text-align: center;
+}
 
+.topo{
+    padding: 50px;
+    border-bottom: solid 1px #707070;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
 
 
 
