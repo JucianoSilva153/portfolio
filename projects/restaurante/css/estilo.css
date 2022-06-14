@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: orange;
+}
+
+p{
+    color:grey;
+}
+
+.head{
+    /* background-image: url("../images/delicious-meal-catering-fish-service.jpg");     */
+    height: 550px;
+    background-color: black;
+}
+
+.head img{
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+}
+
+.menu{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    color: orange;
+}
+
+.menu ul li:hover{
+    background-color: orange;
+    color: black;
+    transition: 0.2s;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.titulo{
+    position: absolute;
+    top: 230;
+    left: 470px;
+    font-size: 60px;
+    color:orange;
+    text-shadow: 1px 1px 1px black;
+}
+
+.cardapio, .encomenda, .clientes{
+    margin-top: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.card-line{
+    display: inline-flex;
+    margin: 30px;
+}
+
+.card-line .card{
+    width: 290px;
+    box-shadow: 1px 1px 10px orange;
+}
+
+.card-line .card img{
+    width: 100%;
+    height:300px;
+}
+
+.card-line .card .card-content{
+    padding: 15px;
+}
+.card-line .card .card-content h4{
+    color: orange;
+    margin-bottom: 8px;
+}
+
+.alinhamento{
+    display: flex;
+}
+
+.alinhamento .image, .form{
+    padding: 10px;
+}
+
+.image{
+    width: 60%;
+}
+
+.image img{
+    width: 50%;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.form{
+    width: 50%;
+}
+
+.form form input{
+    display: block;
+    border: 1px solid orange;
+    padding: 6px;
+    width: 500px;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.form form:last-child(){
+    padding-bottom: 100px;
+}
+
+.form form{
+    margin-top: 100px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.2s;
+}
+
+.slider{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.slider .btnLeft, .btnRight{
+    background-color: orange;
+    padding: 8px;
+    color: white;
+    padding-top: 40px;
+}
+
+.slider .conteudo{
+    padding-top: 15px;
+    width: 1200px;
+}
+
+.footer{
+    background-color: black;
+    color: orange;
+    padding: 25px;
+}
+
+.footer h5{
+    border-bottom: 2px solid orange;
+    border-left-width: 0px;
+    margin-bottom: 10px;
+}
+
+.footer ul{
+    list-style: none;
+    width: 100px;
+}
+.footer ul li:hover{
+    color: white;
+}
+
+.part01, .part02, .part03{
+    width: 33.33%;
+    padding: 15px;
+}
+
+.part01 h1{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.back{
+    position: fixed;
+    background-color: #a09f9f;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px; 
+    border-radius: 10px;
+    color: white;
+}
+
+.back a{
+    color: inherit;
+    text-decoration: none;
+}
