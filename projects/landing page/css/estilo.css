@@ -1,0 +1,99 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.corpo{
+    background-color: #00062e;
+    width: 98%;
+    height: 98%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: #a90138 5px 5px 1px;
+    /* display: none; */
+}
+
+.compra{
+    background-color: #00062e;
+    width: 40%;
+    height: 98%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: #a90138 5px 5px 1px;
+    padding: 2px;
+    display: none;
+}
+
+.compra input, select{
+    display: block;
+}
+
+.compra button{
+    width: 150px;
+}
+
+input{
+    margin-top: 350px;
+}
+
+input, select{
+    padding: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #a90138;
+    color: white;
+}
+
+body{
+    background-color: #000255;
+}
+
+.alinhamento{
+    display: flex;
+}
+
+.alinhamento .side1{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.alinhamento .side1 .textos{
+    text-orientation: sideways;
+    margin-top: 245px;
+    margin-left: 20px;
+}
+
+.alinhamento .side2{
+    width: 50%;
+    color: #a90138;
+    text-align: center;
+}
+
+.alinhamento .side2 .img{
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/Alba01.png");
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+button{
+    background-color: #a90138;
+    border: none;
+    padding: 20px;
+    color: #00062e;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: #960334;
+    color: #00062e;
+}
