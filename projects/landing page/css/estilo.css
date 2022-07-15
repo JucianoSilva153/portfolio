@@ -1,5 +1,7 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+
 }
 
 
@@ -7,9 +9,6 @@
     background-color: #00062e;
     width: 98%;
     height: 98%;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 30px;
     box-shadow: #a90138 5px 5px 1px;
     /* display: none; */
@@ -53,6 +52,9 @@ input, select{
 
 body{
     background-color: #000255;
+    display: flex;
+    place-content: center;
+    align-items: center;
 }
 
 .alinhamento{
@@ -83,6 +85,9 @@ body{
     background-image: url("../img/Alba01.png");
     margin-left: 100px;
     margin-top: 60px;
+
+    transition-property: background-image;
+    transition-duration: 0.8s;
 }
 
 button{

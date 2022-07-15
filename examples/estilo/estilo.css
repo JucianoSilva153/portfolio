@@ -1,0 +1,73 @@
+.caixa{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    animation: init 1s;
+}
+
+.caixa h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: white;
+}
+
+@keyframes init {
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    animation: fundo 10s ease infinite;
+    display: grid;
+    align-content: center;
+    background: linear-gradient(-45deg, orange,green,white ) no-repeat;
+    background-size: 900% 900%;
+
+}
+
+@keyframes fundo{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes botao {
+    to{
+        transform: translateY(10px);
+    }
+}
+
+@keyframes borda {
+    to{
+        border-radius: 10px;
+        background-color: orange;
+    }
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    animation: botao 2s ease-in-out alternate infinite;
+
+    transition-property: border-radius, background-color;
+    transition-duration: 0.8s;
+}
+button:hover{
+    border-radius: 10px;
+    background-color: powderblue;
+}

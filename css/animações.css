@@ -1,0 +1,16 @@
+
+
+.topo, .projetos, .home{
+    animation: init 2s;
+}
+
+@keyframes init {
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

@@ -119,6 +119,12 @@ h1,h2,h3,h4{
     padding: 10px;
 }
 
+.centro, .centro h3{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
 /* Para a div Home */
 
 
@@ -342,7 +348,10 @@ h1,h2,h3,h4{
         
     }
 
-    
+    .menu{
+        margin-left: 60%;
+    }
+
     .rodape{
         margin-top: 30px;
         text-align: center;
@@ -355,6 +364,15 @@ h1,h2,h3,h4{
 }
 @media (max-width: 1025px){
     
+    .topo{
+        padding: 50px;
+        border-bottom: solid 1px #707070;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
 
     .card-line{
         flex-wrap: wrap;
@@ -379,7 +397,7 @@ h1,h2,h3,h4{
     }
 
     .menu{
-        margin-left: 55%;
+        margin-left: 45%;
     }  
 
     
@@ -396,7 +414,15 @@ h1,h2,h3,h4{
 }
 @media (max-width: 769px){
     
-    
+    .topo{
+        padding: 50px;
+        border-bottom: solid 1px #707070;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
     .rodape{
         margin-top: 30px;
         text-align: center;
@@ -428,7 +454,7 @@ h1,h2,h3,h4{
     }
 
     .menu{
-        margin-left: 52%;
+        margin-left: 25%;
     } 
 
     .stacks .back{
@@ -495,61 +521,46 @@ h1,h2,h3,h4{
         margin-top: 10px;
     }
 
+    .topo{
+        padding: 50px;
+        border-bottom: solid 1px #707070;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
 
 }
 @media (max-width: 395px){
 
-/* .menu{
-    margin-left: 0%;
-    position: absolute;
-    right: 350px;
-    background-color: #909090;
-    width: -350px;
-    height: 50%;
-    transition: 1s;
-}
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color: #a09f9f;
+        padding: 10px;
+    }
 
-.menu li{
-    display: block;
-    padding-bottom: 10px;
-}
-  
-input[type="checkbox"]{
-    display: none;
-}
+    .menu{
+        visibility: hidden;
+        position: absolute;
+    }
 
-input[type="checkbox"]:checked ~ .menu{
-    transform: translateX(350px);
-}
+    .home img{
+        margin-left: 15%;
+    }
 
-label{
-    position: absolute;
-    z-index: 1;
-    margin-bottom: 30px;
-} */
+    .card{
+        height: 200px;
+    }
 
-
-.rodape{
-    margin-top: 30px;
-    text-align: center;
-    color: white;
-    background-color: #a09f9f;
-    padding: 10px;
-}
-
-
-
-.menu{
-    visibility: hidden;
-    position: absolute;
-}
-
-.home img{
-    margin-left: 15%;
-}
-
-.card{
-    height: 200px;
-}
-
+    .topo{
+        padding: 50px;
+        border-bottom: solid 1px #707070;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
 }
