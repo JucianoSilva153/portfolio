@@ -1,12 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    --Cor1: #707070;
+    --Cor2: #a09f9f;
+    /* --FundoTopo: #a09f9f; */
 }
 
 body{
 
 font-family: Consolas;
-color: #707070;
+color: var(--Cor1);
 
 
 }
@@ -31,7 +34,7 @@ h1,h2,h3,h4{
     /* font-size: 10px;
     color: #776161; */
 
-    background-color: #707070;
+    background-color: var(--Cor1);
     color: white;
     border-radius: 6px;
     padding: 4px;
@@ -50,7 +53,7 @@ h1,h2,h3,h4{
 .menu{
     margin-left: 55%;
     margin-top: 10px;
-    color:#707070;
+    color:var(--Cor1);
 }
 /* Para a div menu */
 
@@ -60,15 +63,15 @@ h1,h2,h3,h4{
 /* Para a ancora do menu */
 .listm a:hover{
     text-decoration: none;
-    border: 2px solid #707070;
-    color: #707070;
+    border: 2px solid var(--Cor1);
+    color: var(--Cor1);
     padding:5px;
     border-radius: 8px;
 }
 
 .listm a{
     text-decoration: none;
-    color: #707070;
+    color: var(--Cor1);
     padding:5px;
 }
 
@@ -80,11 +83,13 @@ h1,h2,h3,h4{
 /* Para a div Home */
 
 .home{
-    margin-right: 8px;
+    /* margin-right: 8px;
     margin-left: 8px;
-    margin-top: 60px;
+    margin-top: 60px; */
+    padding: 20px;
     margin-bottom: 150px;
-    color:#707070;
+    color:var(--Cor1);
+    /* background-color: var(--Cor2); */
 }
 
 .home h1{
@@ -138,9 +143,9 @@ h1,h2,h3,h4{
 
     margin-top: 150px;
     border-radius: 8px;
-    border-color:#707070 ;
-    color: #707070;
-    border: 2px solid #707070;
+    border-color:var(--Cor1) ;
+    color: var(--Cor1);
+    border: 2px solid var(--Cor1);
     padding:5px;
     /* background-color: grey; */
     text-decoration: none;
@@ -150,7 +155,7 @@ h1,h2,h3,h4{
 
 .botao:hover{
 
-    background-color: #707070;
+    background-color: var(--Cor1);
     color: white;
 
 }
@@ -202,7 +207,7 @@ h1,h2,h3,h4{
     }
 
     .card-line .card{
-        border: 2px solid #707070;
+        border: 2px solid var(--Cor1);
         border-radius: 10px;
         margin: 10px;
         padding: 10px;
@@ -237,7 +242,7 @@ h1,h2,h3,h4{
         margin-top: 30px;
         text-align: center;
         color: white;
-        background-color: #a09f9f;
+        background-color: var(--Cor2);
         padding: 10px;
     }
 
@@ -295,7 +300,7 @@ h1,h2,h3,h4{
 }
 
 .stacks h4{
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid var(--Cor1);
 }
 
 /* Para a lista de tecnologias */
@@ -306,7 +311,7 @@ h1,h2,h3,h4{
 
 .topo{
     padding: 50px;
-    border-bottom: solid 1px #707070;
+    border-bottom: solid 1px var(--Cor1);
     width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -349,14 +354,14 @@ h1,h2,h3,h4{
     }
 
     .menu{
-        margin-left: 60%;
+        margin-left: 50%;
     }
 
     .rodape{
         margin-top: 30px;
         text-align: center;
         color: white;
-        background-color: #a09f9f;
+        background-color: var(--Cor2);
         padding: 10px;
     }
 
@@ -366,7 +371,7 @@ h1,h2,h3,h4{
     
     .topo{
         padding: 50px;
-        border-bottom: solid 1px #707070;
+        border-bottom: solid 1px var(--Cor1);
         width: 800px;
         margin-left: auto;
         margin-right: auto;
@@ -405,7 +410,7 @@ h1,h2,h3,h4{
         margin-top: 30px;
         text-align: center;
         color: white;
-        background-color: #a09f9f;
+        background-color: var(--Cor2);
         padding: 10px;
     }
 
@@ -416,7 +421,7 @@ h1,h2,h3,h4{
     
     .topo{
         padding: 50px;
-        border-bottom: solid 1px #707070;
+        border-bottom: solid 1px var(--Cor1);
         width: 500px;
         margin-left: auto;
         margin-right: auto;
@@ -427,7 +432,7 @@ h1,h2,h3,h4{
         margin-top: 30px;
         text-align: center;
         color: white;
-        background-color: #a09f9f;
+        background-color: var(--Cor2);
         padding: 10px;
     }
 
@@ -488,7 +493,7 @@ h1,h2,h3,h4{
         margin-top: 30px;
         text-align: center;
         color: white;
-        background-color: #a09f9f;
+        background-color: var(--Cor2);
         padding: 10px;
     }
 
@@ -523,7 +528,7 @@ h1,h2,h3,h4{
 
     .topo{
         padding: 50px;
-        border-bottom: solid 1px #707070;
+        border-bottom: solid 1px var(--Cor1);
         width: 300px;
         margin-left: auto;
         margin-right: auto;
@@ -538,7 +543,7 @@ h1,h2,h3,h4{
         margin-top: 30px;
         text-align: center;
         color: white;
-        background-color: #a09f9f;
+        background-color: var(--Cor2);
         padding: 10px;
     }
 
@@ -557,7 +562,7 @@ h1,h2,h3,h4{
 
     .topo{
         padding: 50px;
-        border-bottom: solid 1px #707070;
+        border-bottom: solid 1px var(--Cor1);
         width: 200px;
         margin-left: auto;
         margin-right: auto;
