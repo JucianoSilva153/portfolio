@@ -45,6 +45,39 @@ h1,h2,h3,h4{
 
 /*Para a div menu */
 
+.abrirMenu{
+    padding: 20px;
+}
+
+@keyframes Abrir {
+    from{
+        transform: translateY(-350);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+.menu-hidden{
+    position: absolute;
+    width: 100%;
+    background-color: #707070;
+    /* top:  -320px; */
+    display: none;
+}
+
+.menu-hidden ul{
+    color: white;
+    width: 100%;
+    list-style: none;
+}
+
+.menu-hidden ul li{
+    text-align: center;
+    padding: 10px;
+}
+
 .menu li{
     display: inline;
     padding-left: 30px;
@@ -402,7 +435,7 @@ h1,h2,h3,h4{
     }
 
     .menu{
-        margin-left: 45%;
+        margin-left: 25%;
     }  
 
     
@@ -459,7 +492,7 @@ h1,h2,h3,h4{
     }
 
     .menu{
-        margin-left: 25%;
+        display: none;
     } 
 
     .stacks .back{

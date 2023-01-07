@@ -1,3 +1,4 @@
+<!Doctype html>
 <html lang="pt">
 
 <head>
@@ -10,6 +11,7 @@
 </head>
 
 <body>
+    <script src="./JS/animaçoes.js"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <!-- <input type="checkbox" id="MENU">
 <label for="MENU">
@@ -25,6 +27,22 @@
             <li><a href="#sobre">Sobre</a></li>
         </ul>
     </div>
+    
+    <div class="menu-hidden" id="Hidden-Menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#educacao">Educação</a></li>
+            <li><a href="./pages/devweb.html">Web Dev</a></li>
+            <li><a href="./pages/devdesktop.html">Desktop Dev</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li onclick="abrirMenu()" >Fechar</li>
+        </ul>
+    </div>
+
+    <div class="abrirMenu" id="AbrirMenu" onclick="abrirMenu()">
+        <img src="./images/icons/menuIco.png" alt="">
+    </div>
+
 
     <div class="home" id="home">
 
