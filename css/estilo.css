@@ -348,8 +348,23 @@ h1,h2,h3,h4{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
+/* Para a lista de tecnologias */
+
+/* Outros */
+
+.voltar{
+    padding: 20px;
+}
+
+.logoWeb, .logoDesktop{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+/* Outros */
 
 
 
@@ -408,7 +423,7 @@ h1,h2,h3,h4{
         width: 800px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
 
 
@@ -447,6 +462,10 @@ h1,h2,h3,h4{
         padding: 10px;
     }
 
+    .voltar{
+        display: none;
+    }
+
 
 
 }
@@ -458,7 +477,7 @@ h1,h2,h3,h4{
         width: 500px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
+        /* margin-top: 40px; */
     }
 
     .rodape{
@@ -479,7 +498,7 @@ h1,h2,h3,h4{
 
     .card-line .card, .card-image, .card .card-content{
         width: 100%;
-        padding: 15px;
+        padding: 8px;
     }
 
     .card-image{
@@ -488,7 +507,7 @@ h1,h2,h3,h4{
     }
 
     .card p{
-        width: 95%;
+        width: 85%;
     }
 
     .menu{
@@ -509,6 +528,9 @@ h1,h2,h3,h4{
     }
     .stacks .outras{
         width: 20%;
+    }
+    .voltar{
+        display: block;
     }
 }
 @media (max-width: 426px){
@@ -565,7 +587,7 @@ h1,h2,h3,h4{
         width: 300px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
+        /* margin-top: 40px; */
     }
 
 
@@ -599,6 +621,6 @@ h1,h2,h3,h4{
         width: 200px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
+        /* margin-top: 20px; */
     }
 }
