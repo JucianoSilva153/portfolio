@@ -4,70 +4,172 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/estilo.css" />
-    <link rel="stylesheet" href="./css/animações.css" />
+    <link rel="stylesheet" href="/dist/output.css" />
     <title>Juciano Silva - Portfólio</title>
   </head>
 
-  <body>
-    <section class="intro">
-      <div class="flex">
-        <div class="imagem"></div>
-        <div class="texto">
-          <p>
-            <span class="enfase">Juciano Silva</span>, é meu nome! Sou estudande
-            finalista do ensino médio no curso de Informática.
-            Profissionalmente, estou atuando como Programador
-            <span class="enfase">.NET</span>. Tecnologias sempe foram a minha
-            paixão desde mais novo; estou sempre empolgado por resolver
-            problemas usando tecnologias. Trabalho principalmente com
-            <span class="enfase">.NET</span>, especificamente em desenvolvimento
-            Desktop usando <span class="enfase">WinForm</span>,
-            <span class="enfase">Web/Rest API</span> com
-            <span class="enfase">ASP.NET Core</span>; embora tenha conhecimentos
-            em desenvolvimento web com <span class="enfase">PHP</span>.
-          </p>
-        </div>
+  <body class="bg-Fundo">
+    <div
+      class="flex items-center justify-center text-CorTextEnfase h-14 border-b-2 fixed w-full border-b-CorPrincipal bg-Fundo"
+    >
+      <!-- <div id="logoJucs" class="items-center justify-center w-1/12">
+        <img src="./Assets/Images/Logo Min.png" alt="">
+      </div> -->
+      <div
+        id="tituloSite"
+        class="flex items-center font-extrabold text-xl justify-center w-4/5"
+      >
+        <img src="./Assets/Images/Logo Min.png" alt="" class=" w-28" />
       </div>
-    </section>
-
-    <section class="projetos">
-      <div class="CardProjecto">
-        <div class="Card">
-          <div class="CardImagem"></div>
-          <div class="CardConteudo">
-            <h2>TÍTULO DO PROJECTO</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-              reprehenderit adipisci culpa consequuntur voluptatem? Pariatur,
-              voluptatem quod. Ipsam hic ullam sequi! Dolorum odio quia id
-              dignissimos reiciendis, incidunt facilis maxime?
+      <!-- <div id="btnmenu" class="flex items-center justify-center w-1/12">
+        <img src="./Assets/Icons/icoMenu.png" alt="" class="">
+      </div> -->
+    </div>
+    <section id="geral" class=" ">
+      <div
+        id="apresentacao"
+        class="pt-10 flex flex-wrap lg:flex-nowrap w-full lg:p-16 transition"
+      >
+        <div class="lg:w-2/4">
+          <a href="" target="_blank">
+            <img src="./Assets/Images/Bolha01.png" alt="" />
+          </a>
+        </div>
+        <div class="flex flex-wrap justify-end items-center lg:w-2/4 lg:p-16">
+          <div>
+            <p
+              class="text-CorTextEnfase text-center text-4xl font-bold w-full lg:text-right"
+            >
+              Saudações, Eu sou o<span class="text-CorPrincipal p-4 lg:block"
+                >Juciano Silva</span
+              >
             </p>
+            <p class="text-center text-CorTexto w-full">Desenvolvedor .NET</p>
+            <div
+              id="btns"
+              class="flex justify-center items-center w-full mt-6 flex-wrap space-y-3"
+            >
+              <a
+                href=""
+                target="_blank"
+                class="p-3 w-4/6 bg-CorPrincipal text-CorTextEnfase text-center rounded font-semibold"
+                >Download CV</a
+              >
+              <a
+                href=""
+                target="_blank"
+                class="p-3 w-4/6 border-2 border-CorPrincipal text-CorTextEnfase text-center rounded font-semibold"
+                >Entre em Contacto</a
+              >
+            </div>
           </div>
         </div>
       </div>
+      <div id="sobre" class="mt-10 lg:w-2/4 lg:mx-auto">
+        <h1 class="text-CorTextEnfase text-center text-2xl font-bold">
+          Sobre Mim
+        </h1>
+        <p class="text-CorTexto text-justify m-2 text-lg lg:text-center">
+          Desenvolvedor Full-Stack Júnior com experiência em .NET com C#,
+          ASP.NET Core para criação de Backends, WindowsForm e também PHP. Para
+          Front tenho experiência com TailwindCSS, Bootstrap. Sou apaixonado
+          pelo desenvolvimento de Software para resolução de Problemas reais que
+          possam ajudar o mundo. Formado no Curso Médio Técnico de Informática.
+        </p>
+      </div>
     </section>
-
-    <section class="xp">
-      <div class="CardXP">
-        <div class="Card">
-          <div class="CardImagem"></div>
-          <div class="Conteudo">
-            <div class="textoTopoDireita">00/00/000 | 00/00/0000</div>
-            <div class="texto">
-              <h2>TÍTULO EXPERIENCIA</h2>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              corrupti inventore placeat delectus quia doloremque. Error aperiam
-              quasi, quos maiores voluptas minus ea tempore quia illum atque
-              iusto officiis culpa.
+    <section id="habilidades" class="mt-16">
+      <div>
+        <h1 class="text-CorTextEnfase mb-8 text-center text-2xl font-bold">
+          Habilidades
+        </h1>
+        <div class="flex flex-wrap items-center justify-center p-2">
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">.NET</h1>
+              <div class="w-14">
+                <img src="./Assets/Icons/icoDotnet.png" class="w-full" alt="" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">C#</h1>
+              <img src="./Assets/Icons/icoCsharp.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">PHP</h1>
+              <img src="./Assets/Icons/icoPHP.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">Azure</h1>
+              <img src="./Assets/Icons/icoAzure.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">MySQL</h1>
+              <img src="./Assets/Icons/icoMySQL.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">HTML</h1>
+              <img src="./Assets/Icons/icoHTML.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">CSS</h1>
+              <img src="./Assets/Icons/icoCSS.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="w-36 h-28 m-1 bg-FundoCards rounded-bl-lg rounded-br-lg hover:scale-110 transition-transform"
+          >
+            <div
+              class="flex flex-wrap items-center justify-center border-t-8 p-3 border-t-CorPrincipal"
+            >
+              <h1 class="w-full text-center text-CorPrincipal">TailwindCSS</h1>
+              <img src="./Assets/Icons/icoTailwind.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="educacao"></section>
-    <section class="habilidades"></section>
-    <section class="contactos"></section>
+    <section id="projetos" class=""></section>
+    <section id="contactos" class=""></section>
   </body>
 </html>

@@ -1,29 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    --Primary: #FCA311;
-    --Second: #14213d;
-    --Third: #000000;
-    --CorTexto: White;
-    font-family: Roboto;
-    font-size: 20px;
-}
-
-body{
-    color: var(--CorTexto);
-    width: 80%;
-    background-color: var(--Third);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.enfase, h1, h2, h3, h4{
-    color: var(--Primary);
-}
-
-section{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
