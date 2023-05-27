@@ -10,6 +10,9 @@ module.exports = {
       "CorPrincipal": "#f79d65",
       "CorTextEnfase": "#ffffff",
       "CorTexto": "#A6B0B5"
+    },
+    backgroundImage:{
+      "PJ01" : ""
     }
   },
   plugins: [],
