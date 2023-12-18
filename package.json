@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "ExecutarTailwind": "npx tailwind -i ./css/estilo.css -o ./dist/output.css -w"
   }
 }

@@ -671,11 +671,6 @@ video {
   margin: 0.5rem;
 }
 
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -699,14 +694,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .box-border {
