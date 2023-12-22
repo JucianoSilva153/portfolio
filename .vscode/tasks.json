@@ -6,7 +6,7 @@
         {
             "label": "ExecutarTailwind",
             "type": "shell",
-            "command": "npx tailwindcss -i ./css/estilo.css -o ./dist/output.css",
+            "command": "",
             "problemMatcher": [
                 "$go"
             ]

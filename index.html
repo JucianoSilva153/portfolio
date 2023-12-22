@@ -8,13 +8,14 @@
   <meta name="description"
     content="Seja Bem-vindo ao meu Portfólio! Eu sou Juciano Silva esteja a vontadade para entrar em contacto">
   <link rel="stylesheet" href="./dist/output.css" />
+  <link rel="stylesheet" href="./css/animações.css" />
   <title>Juciano Silva - Portfólio</title>
 </head>
 
 <body class="bg-Fundo">
   <header>
     <div
-      class="flex items-center justify-center text-CorTextEnfase h-14 border-b-2 fixed w-full border-b-CorPrincipal bg-Fundo">
+      class="flex z-10 items-center justify-center text-CorTextEnfase h-14 border-b-2 fixed w-full border-b-CorPrincipal bg-Fundo">
       <!-- <div id="logoJucs" class="items-center justify-center w-1/12">
         <img src="./Assets/Images/Logo Min.png" alt="">
       </div> -->
@@ -29,7 +30,7 @@
 
   <main>
     <section id="geral" class=" ">
-      <div id="apresentacao" class="pt-10 flex flex-wrap lg:flex-nowrap w-full lg:p-16 transition">
+      <div id="apresentacao" class=" pt-10 flex flex-wrap lg:flex-nowrap w-full lg:p-16 transition">
         <div class="lg:w-2/4">
           <a href="" target="_blank">
             <img src="./Assets/Images/Bolha01.png" alt="" />
@@ -58,7 +59,8 @@
         <p class="text-CorTexto text-justify m-2 text-lg lg:text-center">
           Desenvolvedor Full-Stack Júnior e Técnico Médio de Informática, com experiência em .NET ,
           usando frameworks como ASP.NET Core, Blazor, MAUI e WindowsForm. Tenho também experiência em desenvolvimento
-          de websites usando PHP. Já trabalhei também com alguns frameworks CSS como TailwindCSS, Bootstrap e Material. Sou apaixonado
+          de websites usando PHP. Já trabalhei também com alguns frameworks CSS como TailwindCSS, Bootstrap e Material.
+          Sou apaixonado
           pelo desenvolvimento de Software para resolução de Problemas reais que
           possam ajudar o mundo tecnológico.
         </p>
@@ -157,7 +159,8 @@
             <div class="border-b border-b-CorPrincipal h-4/5 bg-PJ01">
               <div
                 class="w-full h-full flex items-center text-CorTextEnfase font-semibold text-lg p-2 justify-center opacity-0 hover:opacity-100 transition-opacity hover:bg-opacity-70 hover:bg-FundoCards">
-                <p class=" text-center">Biblioteca para validação de dados como número de telemóvel, bilhete de identidade. Também possibilita gerar senhas seguras.</p>
+                <p class=" text-center">Biblioteca para validação de dados como número de telemóvel, bilhete de
+                  identidade. Também possibilita gerar senhas seguras.</p>
               </div>
             </div>
             <div class="p-1 flex flex-wrap items-center">
@@ -178,7 +181,8 @@
               <div
                 class="w-full h-full flex items-center text-CorTextEnfase font-semibold text-lg p-2 justify-center opacity-0 hover:opacity-100 transition-opacity hover:bg-opacity-70 hover:bg-FundoCards">
                 <p class="text-center">Ecommerce para auxiliar em serviços de
-                  pastelaria. Nele é possível, fazer encomendas de produtos, criar carrinhos, deixar feedbacks e muito mais.</p>
+                  pastelaria. Nele é possível, fazer encomendas de produtos, criar carrinhos, deixar feedbacks e muito
+                  mais.</p>
               </div>
             </div>
             <div class="p-1 flex flex-wrap items-center">
@@ -229,6 +233,74 @@
         </div>
       </div>
     </section>
+    <section id="xp">
+      <h1 class="text-CorTextEnfase mb-8 mt-8 text-center text-2xl font-bold">Experiências Profissionais</h1>
+      <div class="  w-full p-2 text-CorPrincipal flex flex-wrap justify-center items-center ">
+        <div id="xpDevmedia"
+          class=" relative m-1 w-full h-[190px] md:w-[45%] bg-FundoCards border-l-[6px] rounded-r-md border-CorPrincipal ">
+          <div class=" flex w-full p-2">
+            <h1 class=" w-2/4 font-bold">Droidmedia</h1>
+            <h2 class=" w-2/4 text-xs flex justify-center items-center">10 de Maio - 12 Junho</h2>
+          </div>
+          <div class="p-2 text-sm mb-2">
+            <span class="font-bold">Função:</span>
+            Desenvolvimento e Integração de API, Criação de WebSite, Criação de Base de Dados, Hospedagem Azure.
+          </div>
+          <div id="infoXpDevmedia"
+            class=" absolute top-0 flex items-center justify-center opacity-0 p-2 bg-CorPrincipal w-full h-full text-FundoCards text-center mt-auto mb-auto">
+            <p id="textoXP" class=" text-xs">Durante o meu tempo dentro da empresa Droidmedia integrei uma equipa para o
+              desenvolvimento de uma plataforma de Lançamento de Notas para Alunos. Trabalhei directamente
+              da criação de uma API para o tratamento da transmissão das notas usando ASP.NET e também do WebSite que
+              seria integrado
+              com a API para acesso dos alunos com PHP no backend e TailwindCSS frontend.
+            </p>
+          </div>
+          <div class="w-full flex items-center justify-center">
+            <span class="w-8">
+              <img src="./Assets/Icons/icoDotnet.png" alt="" class="w-full" />
+            </span>
+            <span class="w-8">
+              <img src="./Assets/Icons/icoCsharp.png" alt="" class="w-full" />
+            </span>
+            <span class="w-8">
+              <img src="./Assets/Icons/icoPHP.png" alt="" class="w-full" />
+            </span>
+            <span class="w-8">
+              <img src="./Assets/Icons/icoMySQL.png" alt="" class="w-full" />
+            </span>
+            <span class="w-8">
+              <img src="./Assets/Icons/icoAzure.png" alt="" class="w-full" />
+            </span>
+          </div>
+        </div>
+        <div id="xpEdjava"
+          class=" relative z-0 m-1 w-full h-[190px] md:w-[45%] bg-FundoCards border-l-[6px] rounded-r-md border-CorPrincipal ">
+          <div class=" flex w-full p-2">
+            <h1 class=" w-2/4 font-bold">EdJava Aplicativos</h1>
+            <h2 class=" w-2/4 text-xs flex justify-center items-center">Março - Maio</h2>
+          </div>
+          <div class="p-2 text-sm mb-2">
+            <span class="font-bold">Função:</span>
+            Assistência técnica, instalação e manutenção de sistemas de gestão, formação ao cliente.
+          </div>
+          <div id="infoEdjava"
+            class=" absolute top-0 flex items-center justify-center opacity-0 p-2 bg-CorPrincipal w-full h-full text-FundoCards text-center mt-auto mb-auto">
+            <p id="textoXPEdjava" class=" text-xs">Na empresa Edjava, trabalhei como Técnico de sistemas, trabalhando
+              diretamente com o sistema ERP que a empresa fornece
+              aos seus cliente, fazendo sua instalação, suporte ao cliente e Formação.
+            </p>
+          </div>
+          <div class="w-full flex items-center justify-center">
+            <span class="w-8">
+              <img src="./Assets/Icons/icoDotnet.png" alt="" class="w-full" />
+            </span>
+            <span class="w-8">
+              <img src="./Assets/Icons/icoCsharp.png" alt="" class="w-full" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contactos"
       class=" my-20 lg:flex md:flex md:justify-center lg:justify-center md:items-center lg:item-center">
       <div class="p-5">
@@ -272,6 +344,47 @@
       </div>
     </section>
   </footer>
+
+  <script>
+
+    let aMostra = false;
+
+    document.getElementById("xpDevmedia").addEventListener("click", () => {
+      if (aMostra) {
+        document.getElementById("infoXpDevmedia").classList.add("fecharXP");
+        document.getElementById("infoXpDevmedia").classList.remove("opacity-100");
+        document.getElementById("infoXpDevmedia").classList.remove("mostrarXP");
+        document.getElementById("textoXP").classList.add("hidden");
+        //document.getElementById("infoXpDevmedia").classList.add("opacity-0");
+        aMostra = false;
+      } else {
+        document.getElementById("infoXpDevmedia").classList.add("opacity-100");
+        document.getElementById("infoXpDevmedia").classList.add("mostrarXP");
+        document.getElementById("infoXpDevmedia").classList.remove("opacity-0");
+        document.getElementById("infoXpDevmedia").classList.remove("fecharXP");
+        document.getElementById("textoXP").classList.remove("hidden");
+        aMostra = true;
+      }
+    });
+
+    document.getElementById("xpEdjava").addEventListener("click", () => {
+      if (aMostra) {
+        document.getElementById("infoEdjava").classList.add("fecharXP");
+        document.getElementById("infoEdjava").classList.remove("opacity-100");
+        document.getElementById("infoEdjava").classList.remove("mostrarXP");
+        document.getElementById("textoXPEdjava").classList.add("hidden");
+        //document.getElementById("infoXpDevmedia").classList.add("opacity-0");
+        aMostra = false;
+      } else {
+        document.getElementById("infoEdjava").classList.add("opacity-100");
+        document.getElementById("infoEdjava").classList.add("mostrarXP");
+        document.getElementById("infoEdjava").classList.remove("opacity-0");
+        document.getElementById("infoEdjava").classList.remove("fecharXP");
+        document.getElementById("textoXPEdjava").classList.remove("hidden");
+        aMostra = true;
+      }
+    })
+  </script>
 </body>
 
 </html>

@@ -627,12 +627,32 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-\[1000\] {
+  z-index: 1000;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .float-right {
@@ -676,8 +696,16 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .mt-10 {
@@ -694,6 +722,14 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .box-border {
@@ -811,6 +847,10 @@ video {
   height: 24rem;
 }
 
+.h-\[190px\] {
+  height: 190px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -821,6 +861,10 @@ video {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-2\/4 {
+  width: 50%;
 }
 
 .w-28 {
@@ -1689,6 +1733,11 @@ video {
   border-bottom-right-radius: 0.25rem;
 }
 
+.rounded-r-md {
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
 .rounded-s {
   border-start-start-radius: 0.25rem;
   border-end-start-radius: 0.25rem;
@@ -1771,6 +1820,10 @@ video {
 
 .border-l {
   border-left-width: 1px;
+}
+
+.border-l-\[6px\] {
+  border-left-width: 6px;
 }
 
 .border-r {
@@ -2057,9 +2110,19 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -2157,6 +2220,11 @@ video {
   color: rgb(166 176 181 / var(--tw-text-opacity));
 }
 
+.text-FundoCards {
+  --tw-text-opacity: 1;
+  color: rgb(30 21 15 / var(--tw-text-opacity));
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2209,6 +2277,10 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .bg-blend-normal {
@@ -2580,6 +2652,10 @@ video {
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
   }
 
   .md\:items-center {
